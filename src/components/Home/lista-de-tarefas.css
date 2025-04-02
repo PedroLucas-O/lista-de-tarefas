@@ -1,0 +1,85 @@
+body{
+font-family: Arial, sans-serif;
+background-color: #f5f5f5;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+
+}
+
+h2 {
+    color: #333;
+  }
+
+.input-group{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.add-button {
+    margin-left: 5px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.input-group button:hover {
+    background-color: #0056b3;
+}
+
+.task-list {
+    margin-right: 50px;
+}
+
+.task-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.empty-message {
+    color: red;
+    font-size: 14px;
+}
+
+.remove-button {
+    background: red;
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-size: 16px;
+  margin-left: 5px;
+  padding: 8px 3px;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 4px;
+}
+
+  .remove-button:hover {
+    transform: scale(1.1);
+    color: darkred;
+}
