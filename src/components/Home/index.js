@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import "./lista-de-tarefas.css"
+import { FaTrash } from "react-icons/fa"
 
 export default function Home () {
     const [tarefas, setTarefas] = useState([])
@@ -35,7 +36,7 @@ export default function Home () {
 
     return (
         <div className="container">
-            <h1 className="task-list">Lista de Tarefas</h1>
+            <h1>Lista de Tarefas</h1>
             <div className="input-group">
                 <input
                 type="text"
@@ -45,12 +46,14 @@ export default function Home () {
                 />
                 <button className="add-button" onClick={adicionarTarefa}>Adicionar</button>
             </div>
-            <ul>
+            <ul className="task-list">
                 {
                     tarefas.map((tarefa, index) => (
                         <li key={index}>
                             {tarefa}
-                            <button className="remove-button" onClick={() => removerTarefa(index)}>Remover Tarefa</button>
+                            <button className="remove-button" onClick={() => removerTarefa(index)}>
+                            <FaTrash/>
+                            </button>
                         </li>
                     ))
                 }

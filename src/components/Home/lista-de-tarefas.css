@@ -51,7 +51,7 @@ h2 {
 }
 
 .task-list {
-    margin-right: 50px;
+    justify-content: space-between;
 }
 
 .task-list li {
@@ -68,10 +68,10 @@ h2 {
 }
 
 .remove-button {
-    background: red;
+  background: none;
   border: none;
   cursor: pointer;
-  color: black;
+  color: rgba(255, 0, 0, 0.848);
   font-size: 16px;
   margin-left: 5px;
   padding: 8px 3px;
