@@ -38,6 +38,9 @@ Uma aplicação simples de lista de tarefas desenvolvida com **React.js**.
    ```
    http://localhost:3000
    ```
----
 
+## 📍 Acesso Rápido
+
+### [Clique Aqui Para Acessar o Projeto](lista-de-tarefas-pi-eosin.vercel.app)
+---
 Feito por [Pedro Lucas](https://github.com/PedroLucas-O)
